@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <d>Daaamn</d>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='index.js'></script>
 </head>
+<style>
+  body {
+    background-color: black;
+  }
+
+  #dumbledore {
+    width: 50%;
+    padding: 10px;
+    margin-left: 520px;
+    }
+
+  #inputik input[type=text] {
+    width: 30%;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: black;
+    margin-left: 490px;
+
+  }
+  #answer{
+    position: relative;
+    text-align: center;
+    color: white;
+
+  }
+  .button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 16px;
+        cursor: pointer;
+    margin-left: 490px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+</style>
+
 <body>
-    
+  <div id="dumbledore">
+    <img src="norm.jpg" alt="Italian Trulli">
+  </div>
+  <div id="inputik">
+    <input id="text_a" type="text" />
+    <a id="answer"></a>
+    <a id="correctanswer"></a>
+    <button class="button" id="button" type="text" onclick="myFunction()">Check</button>
+  </div>
 </body>
+
 </html>
